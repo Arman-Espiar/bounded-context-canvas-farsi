@@ -197,7 +197,7 @@ Below a filled-in version of the Bounded Context Canvas.
 
 ## مثال
 در زیر یک نسخه پر شده از بوم Bounded Context.
-![BCExample](resources/BCCanvasExample.jpg)
+![BCExample](resources/BCCanvasExample-farsi.png)
 
 ## Tools
 Here are some tools that can help you to use the Bounded Context Canvas.
@@ -211,17 +211,21 @@ A free [MiroHQ template](https://miro.com/miroverse/category/newly-added/the-bou
 ### draw.io Version
 A [draw.io template of the canvas](tools/drawio-svg-version/instructions.md) containing the Bounded Context Canvas as template.
 
-## Design Tips
+## Design Tips - نکات طراحی
 
 By making the important elements of a bounded context's design visible on the canvas, you can more easily challenge and improve the design. Here are some tips help you challenge and improve a design.
 
+با قابل مشاهده کردن عناصر مهم یک طرح bounded context بر روی بوم، می توانید به راحتی طرح را به چالش بکشید و بهبود بخشید. در اینجا چند نکته وجود دارد که به شما کمک می کند تا یک طراحی را به چالش بکشید و بهبود بخشید.
+
 > Please feel free to create a Pull Request sharing your tips.
 
-### General Tips
+### General Tips - نکات عمومی
 
 1. Experiment by moving something on the canvas to another context. How is the design affected?
 
-### Interface Design Tips
+1. با انتقال چیزی روی بوم به context دیگری آزمایش کنید. طراحی چگونه تحت تأثیر قرار می گیرد؟
+
+### Interface Design Tips - نکات طراحی اینترفیس
 
 The public interface of a bounded context is its contract with the rest of the system. Contracts have a big impact on collaborators and are hard to change, so good design is vital. Here are some tips to help you critique the design of a bounded context's interface.
 
@@ -231,6 +235,14 @@ The public interface of a bounded context is its contract with the rest of the s
 4. Is the context exposing too much of its internals?
 5. Do any messages seem like they should belong elsewhere?
 
+
+اینترفیس عمومی یک bounded context، قرارداد آن با بقیه سیستم است. قراردادها تاثیر زیادی روی همکاران دارند و تغییر آنها سخت است، بنابراین طراحی خوب بسیار مهم است. در اینجا چند نکته وجود دارد که به شما کمک می کند تا طراحی اینترفیس عمومی bounded context را نقد کنید.
+
+1. آیا نام پیام ها با یکدیگر و توضیح context منسجم هستند؟
+2. آیا هر نوع پیام بهینه است (مثلاً آیا یک دستور باید یک رویداد باشد)؟
+3. آیا interface خیلی بزرگ است (انواع پیام منحصر به فرد بسیار زیاد)؟
+4. آیا context، درونیات خود را بیش از حد آشکار می کند؟
+5. آیا به نظر می رسد هر پیامی باید به جای دیگری تعلق داشته باشد؟
 
 ## Additional Resources
 

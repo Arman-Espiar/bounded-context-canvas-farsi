@@ -55,7 +55,7 @@ Here is a short explanation of each section of the canvas.
 Naming is hard. Writing down the name of your context and gaining agreement as a team will frame how you design the context.
 
 ### نام
-نامگذاری سخت است. نوشتن نام context خود و به دست آوردن توافق به عنوان یک تیم، چگونگی طراحی زمینه را مشخص می کند.
+نامگذاری سخت است. نوشتن نام context خود و به دست آوردن توافق به عنوان یک تیم، چگونگی طراحی context را مشخص می کند.
 
 
 ### Description

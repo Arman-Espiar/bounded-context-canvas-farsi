@@ -136,7 +136,7 @@ Messages are the information that one collaborator sends to another. There are t
 
 The word message is used in the general sense and not tied to any implementation. No message bus or asynchronous workflow is obligatory. A command, for example, could simply be posting data from an HTML form as a HTTP POST command.
 
-پیام ها اطلاعاتی هستند که یک همکار به دیگری ارسال می کند. سه نوع مکالمه وجود دارد که می تواند بین bounded context ها رخ دهد. درخواست برای انجام کاری (فرمان)، درخواست برای برخی اطلاعات (پرس و جو)، یا اطلاع رسانی درباره وقوع چیزی (یک رویداد).
+پیام ها اطلاعاتی هستند که یک همکار به دیگری ارسال می کند. سه نوع مکالمه وجود دارد که می تواند بین bounded context ها رخ دهد. درخواست برای انجام کاری (دستور)، درخواست برای برخی اطلاعات (پرس و جو)، یا اطلاع رسانی درباره وقوع چیزی (یک رویداد).
 
 کلمه پیام به معنای عام استفاده می شود و به هیچ پیاده سازی وابسته نیست. هیچ گذرگاه پیام یا گردش کار ناهمزمان اجباری نیست. به عنوان مثال، یک دستور می تواند به سادگی داده ها را از یک فرم HTML به عنوان دستور HTTP POST ارسال کند.
 
@@ -149,7 +149,7 @@ If the Bounded Context owns the user interface (e.g. [micro-frontend](https://ma
 ![Collaborator types](resources/collaborator-types.jpeg)
 
 
-همکاران، سیستم ها یا زیرسیستم های دیگری هستند که پیام هایی را به این context ارسال می کنند. آنها می توانند سایر Context Boundedهای، فرانت اند (وب یا موبایل) یا چیز دیگری باشند.
+همکاران، سیستم ها یا زیرسیستم های دیگری هستند که پیام هایی را به این context ارسال می کنند. آنها می توانند سایر Context Boundedها، فرانت اند (وب یا موبایل) یا چیز دیگری باشند.
 
 اگر Context Bounded مالک رابط کاربری باشد (به عنوان مثال [micro-frontend](https://martinfowler.com/articles/micro-frontends.html))، نوع همکار تعامل مستقیم با کاربر است.
 
